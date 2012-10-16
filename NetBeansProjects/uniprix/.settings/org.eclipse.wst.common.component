@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="uniprix">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="hibernate-entitymanager.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-entitymanager/hibernate-entitymanager">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.3alpha-8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.3alpha-8/log4j-1.3alpha-8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="antlr-2.7.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/antlr-2.7.6/antlr-2.7.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-jdk14-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-jdk14-1.6.2/slf4j-jdk14-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mail.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mail/mail">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate-jpa-2.0-api-1.0.0.Final.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate-jpa-2.0-api-1.0.0.Final/hibernate-jpa-2.0-api-1.0.0.Final">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jta-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jta-1.1/jta-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.12-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.12-bin/mysql-connector-java-5.1.12-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="dom4j-1.6.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/dom4j-1.6.1/dom4j-1.6.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-api-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-api-1.2/jstl-api-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="slf4j-api-1.6.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/slf4j-api-1.6.2/slf4j-api-1.6.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hibernate3.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/hibernate3/hibernate3">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections-3.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections-3.1/commons-collections-3.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javassist-3.12.0.GA.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javassist-3.12.0.GA/javassist-3.12.0.GA">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="log4j-1.2.15.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/log4j-1.2.15/log4j-1.2.15">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="itextpdf-5.3.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/itextpdf-5.3.0/itextpdf-5.3.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-impl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-impl-1.2/jstl-impl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="uniprix"/>
+        <property name="java-output-path" value="/uniprix/build/classes"/>
+    </wb-module>
+</project-modules>

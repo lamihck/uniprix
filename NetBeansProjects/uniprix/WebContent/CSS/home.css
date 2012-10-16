@@ -1,0 +1,30 @@
+@CHARSET "ISO-8859-1";
+
+div.content div.panier{
+    float:right;
+}
+
+div.header{
+    clear:both;
+    background-color:#DBDBDB;
+}
+
+div.footer{
+    clear:both;	
+    background-color:#DBDBDB;
+}
+
+div.content{
+    clear:both;	
+}
+
+div.content div.panier table{
+    font-size:11px;
+}
+
+div.header div.user{
+    background-color : grey;
+    margin-top: -60px;
+    float: right;
+    border: black solid 2px;
+}
