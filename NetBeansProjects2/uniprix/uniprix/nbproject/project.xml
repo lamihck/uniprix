@@ -96,6 +96,7 @@
             <config-files>
                 <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/applicationContext.xml</config-file>
                 <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/dispatcher-servlet.xml</config-file>
+                <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/beans.xml</config-file>
             </config-files>
             <config-file-groups>
                 <config-file-group name="Default Group">
