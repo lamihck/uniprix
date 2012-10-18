@@ -30,6 +30,27 @@ public class ArticleDAOImpl implements ArticleDAO{
 	private EntityManagerFactory emf;
 	private static final Logger logger=Logger.getLogger(ArticleDAOImpl.class);	
 
+        
+        
+        /*
+         * AJOUT SPRING
+         */
+        private HibernateTemplate hibernateTemplate;
+
+        public HibernateTemplate getHibernateTemplate() {
+            return hibernateTemplate;
+        }
+
+        public void setHibernateTemplate(HibernateTemplate hibernateTemplate) {
+            this.hibernateTemplate = hibernateTemplate;
+        }
+        /*
+         * FIN AJOUT SPRING
+         */
+        
+        
+        
+        
 	/**
 	 * @param emf
 	 */
@@ -41,8 +62,8 @@ public class ArticleDAOImpl implements ArticleDAO{
 	@Override
 	public List<Article> getAll() {
             
-                HibernateTemplate template = new HibernateTemplate();
-                return (List<Article>)template.find("FROM Article");
+                
+                return (List<Article>)hibernateTemplate.find("FROM Article");
 		/*List<Article> article=null;
 		EntityManager em=emf.createEntityManager();
 		EntityTransaction tx=em.getTransaction();

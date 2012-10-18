@@ -91,12 +91,12 @@ public class BaseServlet extends HttpServlet {
 			CommandeDAO commandeDAO = new CommandeDAOImpl(emf);
 			Commande commande2 = commandeDAO.getByIdCommande(idcommande);
 			
-			Paragraph para1 = new Paragraph("Récapitulatif de la facture",FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
+			Paragraph para1 = new Paragraph("RÃ©capitulatif de la facture",FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
 			para1.setAlignment(Element.ALIGN_CENTER);
 			Paragraph para2 = new Paragraph(".....................................................................................");
 			para2.setAlignment(Element.ALIGN_CENTER);
 			Paragraph para3 = new Paragraph("Entreprise Uniprix             Date: "+commande2.getDate(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
-			Paragraph para4 = new Paragraph("Facture Numéro : "+commande2.getCommandeId(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
+			Paragraph para4 = new Paragraph("Facture NumÃ©ro : "+commande2.getCommandeId(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
 			Paragraph para5 = new Paragraph("Client : "+commande2.getClient().getNom()+" "+commande2.getClient().getPrenom(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
 			Paragraph para6 = new Paragraph("           "+commande2.getAdresse(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
 			Paragraph para7 = new Paragraph("Nombre d'article(s) : "+commande2.getCommandeLignecommande().size(),FontFactory.getFont(FontFactory.HELVETICA, 8, Font.BOLD));
@@ -113,9 +113,9 @@ public class BaseServlet extends HttpServlet {
 			
 			PdfPTable table = new PdfPTable(4);
 			table.addCell("Nom Produit");
-			table.addCell("Quantité");
-			table.addCell("Prix Unitaire €");
-			table.addCell("Prix Total €");
+			table.addCell("QuantitÃ©");
+			table.addCell("Prix Unitaire ");
+			table.addCell("Prix Total ");
 			
 			double TotCommande=0;
 			
@@ -123,7 +123,7 @@ public class BaseServlet extends HttpServlet {
 			for (LigneCommande ligneCommande : commandeTemp) {
 				table.addCell(ligneCommande.getArticle().getNom());
 				table.addCell(ligneCommande.getQuantite()+"");
-				table.addCell(ligneCommande.getArticle().getPrix()+" €");
+				table.addCell(ligneCommande.getArticle().getPrix()+" euro");
 				double tot=ligneCommande.getArticle().getPrix()*ligneCommande.getQuantite();
 				table.addCell(tot+"");
 				TotCommande+=tot;
@@ -131,7 +131,7 @@ public class BaseServlet extends HttpServlet {
 			table.addCell("");
 			table.addCell("");
 			table.addCell("TOTAL");
-			table.addCell(TotCommande+" €");
+			table.addCell(TotCommande+" euro");
 			// Code 4
 			document.add(table);		
 			document.close(); 
