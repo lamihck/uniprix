@@ -16,6 +16,7 @@ import com.uniprix.model.Article;
 import com.uniprix.model.Categorie;
 import com.uniprix.model.Client;
 import com.uniprix.model.Produit;
+import org.springframework.orm.hibernate3.HibernateTemplate;
 
 public class ArticleDAOImpl implements ArticleDAO{
 
@@ -39,7 +40,10 @@ public class ArticleDAOImpl implements ArticleDAO{
 	
 	@Override
 	public List<Article> getAll() {
-		List<Article> article=null;
+            
+                HibernateTemplate template = new HibernateTemplate();
+                return (List<Article>)template.find("FROM Article");
+		/*List<Article> article=null;
 		EntityManager em=emf.createEntityManager();
 		EntityTransaction tx=em.getTransaction();
 		tx.begin();
@@ -51,7 +55,7 @@ public class ArticleDAOImpl implements ArticleDAO{
 			tx.commit();
 			em.close();
 		}
-		return article;
+		return article;*/
 	}
 
 	@Override
@@ -184,7 +188,7 @@ public class ArticleDAOImpl implements ArticleDAO{
 	public  List<Article> findByLike(String chaineCaractere) {
 		List<Article> list  = null;
 		 
-		// on récupère l'emf
+		// on rï¿½cupï¿½re l'emf
 		EntityManagerFactory emf = this.emf;
 		
 		// on trouve la DAO de produit
@@ -195,9 +199,9 @@ public class ArticleDAOImpl implements ArticleDAO{
 		
 		EntityTransaction tx=em.getTransaction();
 		tx.begin();
-		// on prépare la requête avec Like %%
+		// on prï¿½pare la requï¿½te avec Like %%
 		list = (List<Article>)em.createQuery("from Article s where s.description like :motclef OR s.nom like :motclef ")
-				// on introduit la variable chaineCaractère
+				// on introduit la variable chaineCaractï¿½re
 				.setParameter("motclef", "%"+chaineCaractere+"%")
 				.getResultList();
 		
@@ -206,14 +210,14 @@ public class ArticleDAOImpl implements ArticleDAO{
 		// on regarde la size de notre resultat
 		if(list.size() <= 0)
 		{
-			System.out.println("Pas de résultat");
-			System.out.println("Pas de résultat");
+			System.out.println("Pas de rï¿½sultat");
+			System.out.println("Pas de rï¿½sultat");
 			// si c'est <=0 on renvoit null
 			return null;
 		}
 		
 		// sinon on renvois la liste
-		System.out.println("nombre d'article trouvé " + list.size());
+		System.out.println("nombre d'article trouvï¿½ " + list.size());
 		return list;
 	}
 		
