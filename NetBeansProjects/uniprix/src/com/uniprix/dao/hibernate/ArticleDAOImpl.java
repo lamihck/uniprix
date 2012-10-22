@@ -16,6 +16,7 @@ import com.uniprix.model.Article;
 import com.uniprix.model.Categorie;
 import com.uniprix.model.Client;
 import com.uniprix.model.Produit;
+import org.hibernate.SessionFactory;
 import org.springframework.orm.hibernate3.HibernateTemplate;
 
 public class ArticleDAOImpl implements ArticleDAO{
@@ -35,6 +36,17 @@ public class ArticleDAOImpl implements ArticleDAO{
         /*
          * AJOUT SPRING
          */
+        private SessionFactory sessionFactory;
+
+        public SessionFactory getSessionFactory() {
+            return sessionFactory;
+        }
+
+        public void setSessionFactory(SessionFactory sessionFactory) {
+            this.sessionFactory = sessionFactory;
+            this.setHibernateTemplate(new HibernateTemplate(sessionFactory));
+        }
+        
         private HibernateTemplate hibernateTemplate;
 
         public HibernateTemplate getHibernateTemplate() {

@@ -1,0 +1,637 @@
+ Le volume dans le lecteur C s'appelle OS
+ Le num‚ro de s‚rie du volume est 082D-47FD
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix
+
+22/10/2012  14:44    <REP>                       .
+22/10/2012  14:44    <REP>                       ..
+15/10/2012  11:04             1ÿ060 CLASSP~1     .classpath
+15/10/2012  11:02             1ÿ702 PROJEC~1     .project
+16/10/2012  22:17    <REP>          SETTIN~1     .settings
+16/10/2012  22:17    <REP>                       build
+22/10/2012  14:44                 0              fichier.txt
+16/10/2012  22:17    <REP>                       src
+17/10/2012  15:34    <REP>          WEBCON~1     WebContent
+               3 fichier(s)            2ÿ762 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\.settings
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:01               503 JSDTSC~1     .jsdtscope
+15/10/2012  11:01               364 ORGECL~1.PRE org.eclipse.jdt.core.prefs
+15/10/2012  11:02             4ÿ431 ORGECL~1.COM org.eclipse.wst.common.component
+15/10/2012  11:02               345 ORGECL~1.XML org.eclipse.wst.common.project.facet.core.xml
+15/10/2012  11:01                49 ORGECL~1.CON org.eclipse.wst.jsdt.ui.superType.container
+15/10/2012  11:01                 6 ORGECL~1.NAM org.eclipse.wst.jsdt.ui.superType.name
+               6 fichier(s)            5ÿ698 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>                       classes
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>                       com
+15/10/2012  11:02               662 LOG4J~1.PRO  log4j.properties
+16/10/2012  22:17    <REP>                       META-INF
+               1 fichier(s)              662 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>                       uniprix
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>          CLASSU~1     ClassUtilitaire
+16/10/2012  22:17    <REP>          CONTRO~1     controller
+16/10/2012  22:17    <REP>                       dao
+16/10/2012  22:17    <REP>                       listener
+16/10/2012  22:17    <REP>                       model
+16/10/2012  22:17    <REP>          RESOUR~1     ResourceImages
+16/10/2012  22:17    <REP>                       test
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\ClassUtilitaire
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             2ÿ591 CATEGO~1.CLA CategorieProduit.class
+               1 fichier(s)            2ÿ591 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\controller
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             2ÿ804 ARTICL~1.CLA ArticleServlet.class
+15/10/2012  11:24             7ÿ113 BASESE~1.CLA BaseServlet.class
+15/10/2012  11:24             3ÿ649 CATEGO~1.CLA CategoriesServlet.class
+15/10/2012  11:24               820 COMMAN~1.CLA CommandeServlet$Authenticator.class
+15/10/2012  11:24            12ÿ493 COMMAN~2.CLA CommandeServlet.class
+15/10/2012  11:24             2ÿ856 CONNEC~1.CLA ConnecterServlet.class
+15/10/2012  11:24             3ÿ871 CREATI~1.CLA CreationArticleServlet.class
+15/10/2012  11:24             3ÿ122 CREATI~2.CLA CreationCategorieServlet.class
+15/10/2012  11:24             3ÿ609 CREATI~3.CLA CreationProduitServlet.class
+15/10/2012  11:24             3ÿ902 GESTIO~1.CLA GestionCompteServlet.class
+15/10/2012  11:24               832 INSCRI~1.CLA InscriptionServlet$Authenticator.class
+15/10/2012  11:24             9ÿ723 INSCRI~2.CLA InscriptionServlet.class
+15/10/2012  11:24             2ÿ372 LISTEA~1.CLA ListeArticleAllServlet.class
+15/10/2012  11:24             3ÿ369 LISTEA~2.CLA ListeArticleServlet.class
+15/10/2012  11:24             2ÿ382 LISTEC~1.CLA ListeCategorieServlet.class
+15/10/2012  11:24             3ÿ717 LISTEC~2.CLA ListeClientServlet.class
+15/10/2012  11:24             4ÿ609 LISTEC~3.CLA ListeCommandeServlet.class
+15/10/2012  11:24             4ÿ620 LISTEC~4.CLA ListeCommandeUserServlet.class
+15/10/2012  11:24             4ÿ210 LISTEL~1.CLA ListeLigneCommandeServlet.class
+15/10/2012  11:24             2ÿ780 LISTEP~1.CLA ListeProduitAllServlet.class
+15/10/2012  11:24             3ÿ270 LISTEP~2.CLA ListeProduitIdServlet.class
+15/10/2012  11:24             1ÿ403 LOGOUT~1.CLA LogoutServlet.class
+15/10/2012  11:24             4ÿ203 LSTLIG~1.CLA LstLigneCommandeServlet.class
+15/10/2012  11:24             4ÿ034 MODIFI~1.CLA ModifieArticleServlet.class
+15/10/2012  11:24             3ÿ461 MODIFI~2.CLA ModifieCategorieServlet.class
+15/10/2012  11:24             3ÿ478 MODIFI~3.CLA ModifieCommandeServlet.class
+15/10/2012  11:24             4ÿ260 MODIFI~4.CLA ModifieLigneCommandeServlet.class
+15/10/2012  11:24             3ÿ661 MOF649~1.CLA ModifieProduitServlet.class
+15/10/2012  11:24             4ÿ292 MOA779~1.CLA ModifierClientServlet.class
+15/10/2012  11:24             3ÿ197 PANIER~1.CLA PanierServlet.class
+15/10/2012  11:24             2ÿ699 PRODUI~1.CLA ProduitServlet.class
+15/10/2012  11:24             2ÿ738 RECHER~1.CLA RechercheServlet.class
+15/10/2012  11:24             3ÿ605 SUPPRI~1.CLA SupprimerArticleServlet.class
+15/10/2012  11:24             3ÿ264 SUPPRI~2.CLA SupprimerCategorieServlet.class
+15/10/2012  11:24             3ÿ488 SUPPRI~3.CLA SupprimerClientServlet.class
+15/10/2012  11:24             3ÿ413 SUPPRI~4.CLA SupprimerCommandeServlet.class
+15/10/2012  11:24             3ÿ376 SU3A7A~1.CLA SupprimerProduitServlet.class
+15/10/2012  11:24             3ÿ847 SUPPRL~1.CLA SupprLigneCommandeServlet.class
+15/10/2012  11:24             1ÿ708 TRANSI~1.CLA TransitionServlet.class
+              39 fichier(s)          146ÿ250 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\dao
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24               693 ARTICL~1.CLA ArticleDAO.class
+15/10/2012  11:24               409 CATEGO~1.CLA CategorieDAO.class
+15/10/2012  11:24               526 CLIENT~1.CLA ClientDAO.class
+15/10/2012  11:24               709 COMMAN~1.CLA CommandeDAO.class
+16/10/2012  22:17    <REP>          HIBERN~1     hibernate
+15/10/2012  11:24               739 LIGNEC~1.CLA LigneCommandeDAO.class
+15/10/2012  11:24               385 LOGIND~1.CLA LoginDAO.class
+15/10/2012  11:24               558 PRODUI~1.CLA ProduitDAO.class
+15/10/2012  11:24               317 ROLEDA~1.CLA RoleDAO.class
+               8 fichier(s)            4ÿ336 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\dao\hibernate
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             7ÿ508 ARTICL~1.CLA ArticleDAOImpl.class
+15/10/2012  11:24             4ÿ722 CATEGO~1.CLA CategorieDAOImpl.class
+15/10/2012  11:24             4ÿ941 CLIENT~1.CLA ClientDAOImpl.class
+15/10/2012  11:24             7ÿ487 COMMAN~1.CLA CommandeDAOImpl.class
+15/10/2012  11:24             8ÿ573 LIGNEC~1.CLA LigneCommandeDAOImpl.class
+15/10/2012  11:24             3ÿ613 LOGIND~1.CLA LoginDAOImpl.class
+15/10/2012  11:24             6ÿ268 PRODUI~1.CLA ProduitDAOImpl.class
+15/10/2012  11:24             2ÿ910 ROLEDA~1.CLA RoleDAOImpl.class
+               8 fichier(s)           46ÿ022 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\listener
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             1ÿ265 CONTEX~1.CLA ContextEntityManagerListener.class
+               1 fichier(s)            1ÿ265 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\model
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             2ÿ785 ARTICL~1.CLA Article.class
+15/10/2012  11:24             2ÿ568 CATEGO~1.CLA Categorie.class
+15/10/2012  11:24             5ÿ484 CLIENT~1.CLA Client.class
+15/10/2012  11:24             3ÿ678 COMMAN~1.CLA Commande.class
+15/10/2012  11:24             2ÿ907 LIGNEC~1.CLA LigneCommande.class
+15/10/2012  11:24             1ÿ292 LIGNEP~1.CLA LignePanier.class
+15/10/2012  11:24             2ÿ419 LOGIN~1.CLA  Login.class
+15/10/2012  11:24             2ÿ914 PANIER~1.CLA Panier.class
+15/10/2012  11:24             3ÿ375 PRODUI~1.CLA Produit.class
+15/10/2012  11:24             1ÿ972 ROLE~1.CLA   Role.class
+              10 fichier(s)           29ÿ394 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\ResourceImages
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             1ÿ003 IMAGES~1.CLA ImagesCategories.class
+               1 fichier(s)            1ÿ003 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\com\uniprix\test
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:24             6ÿ505 ARTICL~1.CLA ArticleDAOTest.class
+15/10/2012  11:24             3ÿ026 CATEGO~1.CLA CategorieDAOTest.class
+15/10/2012  11:24             5ÿ405 CLIENT~1.CLA ClientDAOTest.class
+15/10/2012  11:24             8ÿ875 COMMAN~1.CLA CommandeDAOTest.class
+15/10/2012  11:24            11ÿ221 LIGNEC~1.CLA LigneCommandeDAOTest.class
+15/10/2012  11:24             5ÿ029 PRODUI~1.CLA ProduitDAOTest.class
+15/10/2012  11:24             1ÿ419 ROLEDA~1.CLA RoleDAOTest.class
+15/10/2012  11:24             2ÿ636 TEST~1.CLA   Test.class
+15/10/2012  11:24            20ÿ646 TESTCR~1.CLA TestCreationBase.class
+               9 fichier(s)           64ÿ762 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\build\classes\META-INF
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:02             1ÿ346 PERSIS~1.XML persistence.xml
+               1 fichier(s)            1ÿ346 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>                       com
+15/10/2012  11:02               662 LOG4J~1.PRO  log4j.properties
+16/10/2012  22:17    <REP>                       META-INF
+               1 fichier(s)              662 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+17/10/2012  15:36    <REP>                       uniprix
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix
+
+17/10/2012  15:36    <REP>                       .
+17/10/2012  15:36    <REP>                       ..
+16/10/2012  22:17    <REP>          CLASSU~1     ClassUtilitaire
+16/10/2012  22:17    <REP>          CONTRO~1     controller
+16/10/2012  22:17    <REP>                       dao
+16/10/2012  22:17    <REP>                       listener
+16/10/2012  22:17    <REP>                       model
+16/10/2012  22:17    <REP>          RESOUR~1     ResourceImages
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\ClassUtilitaire
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27             2ÿ128 CATEGO~1.JAV CategorieProduit.java
+               1 fichier(s)            2ÿ128 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\controller
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27             2ÿ516 ARTICL~1.JAV ArticleServlet.java
+18/10/2012  18:36             5ÿ654 BASESE~1.JAV BaseServlet.java
+15/10/2012  11:02             3ÿ578 CATEGO~1.JAV CategoriesServlet.java
+15/10/2012  11:02            16ÿ302 COMMAN~1.JAV CommandeServlet.java
+16/10/2012  23:27             2ÿ623 CONNEC~1.JAV ConnecterServlet.java
+15/10/2012  11:02             3ÿ262 CREATI~1.JAV CreationArticleServlet.java
+15/10/2012  11:02             2ÿ371 CREATI~2.JAV CreationCategorieServlet.java
+15/10/2012  11:02             2ÿ941 CREATI~3.JAV CreationProduitServlet.java
+15/10/2012  11:02             3ÿ559 GESTIO~1.JAV GestionCompteServlet.java
+15/10/2012  11:01             9ÿ221 INSCRI~1.JAV InscriptionServlet.java
+16/10/2012  23:27             2ÿ267 LISTEA~1.JAV ListeArticleAllServlet.java
+16/10/2012  23:27             3ÿ084 LISTEA~2.JAV ListeArticleServlet.java
+16/10/2012  23:27             2ÿ212 LISTEC~1.JAV ListeCategorieServlet.java
+16/10/2012  23:27             3ÿ449 LISTEC~2.JAV ListeClientServlet.java
+16/10/2012  23:27             3ÿ614 LISTEC~3.JAV ListeCommandeServlet.java
+16/10/2012  23:27             3ÿ625 LISTEC~4.JAV ListeCommandeUserServlet.java
+16/10/2012  23:27             3ÿ319 LISTEL~1.JAV ListeLigneCommandeServlet.java
+16/10/2012  23:27             2ÿ600 LISTEP~1.JAV ListeProduitAllServlet.java
+15/10/2012  11:02             2ÿ473 LISTEP~2.JAV ListeProduitIdServlet.java
+16/10/2012  23:27             1ÿ405 LOGOUT~1.JAV LogoutServlet.java
+16/10/2012  23:27             3ÿ274 LSTLIG~1.JAV LstLigneCommandeServlet.java
+15/10/2012  11:02             3ÿ789 MODIFI~1.JAV ModifieArticleServlet.java
+16/10/2012  23:27             3ÿ334 MODIFI~2.JAV ModifieCategorieServlet.java
+16/10/2012  23:27             3ÿ491 MODIFI~3.JAV ModifieCommandeServlet.java
+16/10/2012  23:27             3ÿ908 MODIFI~4.JAV ModifieLigneCommandeServlet.java
+16/10/2012  23:27             3ÿ412 MOBAC2~1.JAV ModifieProduitServlet.java
+16/10/2012  23:27             4ÿ451 MO5D7A~1.JAV ModifierClientServlet.java
+15/10/2012  11:01             3ÿ913 PANIER~1.JAV PanierServlet.java
+16/10/2012  23:27             2ÿ303 PRODUI~1.JAV ProduitServlet.java
+15/10/2012  11:02             2ÿ508 RECHER~1.JAV RechercheServlet.java
+16/10/2012  23:27             3ÿ647 SUPPRI~1.JAV SupprimerArticleServlet.java
+16/10/2012  23:27             3ÿ095 SUPPRI~2.JAV SupprimerCategorieServlet.java
+16/10/2012  23:27             3ÿ317 SUPPRI~3.JAV SupprimerClientServlet.java
+16/10/2012  23:27             3ÿ370 SUPPRI~4.JAV SupprimerCommandeServlet.java
+16/10/2012  23:27             3ÿ250 SU8778~1.JAV SupprimerProduitServlet.java
+16/10/2012  23:27             3ÿ721 SUPPRL~1.JAV SupprLigneCommandeServlet.java
+16/10/2012  23:27             1ÿ589 TRANSI~1.JAV TransitionServlet.java
+              37 fichier(s)          136ÿ447 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\dao
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27               615 ARTICL~1.JAV ArticleDAO.java
+16/10/2012  23:27               534 CATEGO~1.JAV CategorieDAO.java
+16/10/2012  23:27               677 CLIENT~1.JAV ClientDAO.java
+16/10/2012  23:27               766 COMMAN~1.JAV CommandeDAO.java
+20/10/2012  19:11    <REP>          HIBERN~1     hibernate
+16/10/2012  23:27               880 LIGNEC~1.JAV LigneCommandeDAO.java
+16/10/2012  23:27               429 LOGIND~1.JAV LoginDAO.java
+16/10/2012  23:27             1ÿ748 PRODUI~1.JAV ProduitDAO.java
+16/10/2012  23:27               406 ROLEDA~1.JAV RoleDAO.java
+               8 fichier(s)            6ÿ055 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\dao\hibernate
+
+20/10/2012  19:11    <REP>                       .
+20/10/2012  19:11    <REP>                       ..
+20/10/2012  19:11               421 ARTICL~1.XML ArticleDAOImpl.hbm.xml
+20/10/2012  20:22             6ÿ962 ARTICL~1.JAV ArticleDAOImpl.java
+16/10/2012  23:27             4ÿ044 CATEGO~1.JAV CategorieDAOImpl.java
+16/10/2012  23:27             4ÿ368 CLIENT~1.JAV ClientDAOImpl.java
+16/10/2012  23:27             7ÿ105 COMMAN~1.JAV CommandeDAOImpl.java
+16/10/2012  23:27             8ÿ797 LIGNEC~1.JAV LigneCommandeDAOImpl.java
+16/10/2012  23:27             3ÿ450 LOGIND~1.JAV LoginDAOImpl.java
+16/10/2012  23:27             5ÿ697 PRODUI~1.JAV ProduitDAOImpl.java
+16/10/2012  23:27             1ÿ871 ROLEDA~1.JAV RoleDAOImpl.java
+               9 fichier(s)           42ÿ715 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\listener
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:02             1ÿ190 CONTEX~1.JAV ContextEntityManagerListener.java
+               1 fichier(s)            1ÿ190 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\model
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27             2ÿ724 ARTICL~1.JAV Article.java
+16/10/2012  23:27             1ÿ975 CATEGO~1.JAV Categorie.java
+15/10/2012  11:01             4ÿ501 CLIENT~1.JAV Client.java
+16/10/2012  23:27             3ÿ586 COMMAN~1.JAV Commande.java
+16/10/2012  23:27             2ÿ518 LIGNEC~1.JAV LigneCommande.java
+16/10/2012  23:27               774 LIGNEP~1.JAV LignePanier.java
+16/10/2012  23:27             2ÿ004 LOGIN~1.JAV  Login.java
+15/10/2012  11:02             2ÿ394 PANIER~1.JAV Panier.java
+16/10/2012  23:27             2ÿ679 PRODUI~1.JAV Produit.java
+16/10/2012  23:27             1ÿ550 ROLE~1.JAV   Role.java
+              10 fichier(s)           24ÿ705 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\com\uniprix\ResourceImages
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27               761 IMAGES~1.JAV ImagesCategories.java
+               1 fichier(s)              761 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\src\META-INF
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:30             1ÿ510 PERSIS~1.XML persistence.xml
+               1 fichier(s)            1ÿ510 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent
+
+17/10/2012  15:34    <REP>                       .
+17/10/2012  15:34    <REP>                       ..
+16/10/2012  23:27             1ÿ540              articles.jsp
+16/10/2012  23:27             3ÿ863              commande.jsp
+16/10/2012  23:27               833 CONNEC~1.JSP connection.jsp
+16/10/2012  23:27             1ÿ413 CREATI~1.JSP creationArticle.jsp
+16/10/2012  23:27               732 CREATI~2.JSP creationCategorie.jsp
+16/10/2012  23:27             1ÿ159 CREATI~3.JSP creationProduit.jsp
+16/10/2012  22:17    <REP>                       CSS
+16/10/2012  23:27               426              error.jsp
+16/10/2012  23:27             1ÿ924 GESTIO~1.JSP gestionCompte.jsp
+16/10/2012  23:27             1ÿ547              home.jsp
+16/10/2012  22:17    <REP>                       Images
+16/10/2012  22:17    <REP>                       include
+16/10/2012  23:27               295 INDEX~1.HTM  index.html
+16/10/2012  23:27             7ÿ463 INSCRI~1.JSP inscription.jsp
+16/10/2012  22:17    <REP>                       JS
+16/10/2012  23:27             1ÿ827 LIGNEC~1.JSP lignecommandeAdmin.jsp
+16/10/2012  23:27               998 LIGNEC~2.JSP lignecommandeUser.jsp
+16/10/2012  23:27             1ÿ221 LISTEA~1.JSP listearticleAdmin.jsp
+16/10/2012  23:27             1ÿ045 LISTEA~2.JSP listearticleAllAdmin.jsp
+16/10/2012  23:27             1ÿ281 LISTEC~1.JSP listecategorieAdmin.jsp
+16/10/2012  23:27             1ÿ892 LISTEC~2.JSP listeclientAdmin.jsp
+16/10/2012  23:27             1ÿ374 LISTEC~3.JSP listecommandeAdmin.jsp
+16/10/2012  23:27             1ÿ119 LISTEC~4.JSP listecommandeUser.jsp
+16/10/2012  23:27             1ÿ191 LISTEP~1.JSP listeproduitAdmin.jsp
+16/10/2012  23:27             1ÿ438 LISTEP~2.JSP listeproduitIdAdmin.jsp
+16/10/2012  23:27               450 MENU_C~1.JSP menu_Categorie.jsp
+16/10/2012  23:27             1ÿ570 MENU_D~1.JSP menu_deroulant.jsp
+16/10/2012  23:25    <REP>                       META-INF
+16/10/2012  23:27               896 MODIFI~1.JSP modifierArticle.jsp
+16/10/2012  23:27               766 MODIFI~2.JSP modifierCategorie.jsp
+16/10/2012  23:27             1ÿ267 MODIFI~3.JSP modifierClient.jsp
+16/10/2012  23:27               645 MODIFI~4.JSP modifierCommande.jsp
+16/10/2012  23:27               775 MOA3F1~1.JSP modifierLigne.jsp
+16/10/2012  23:27               746 MO26C1~1.JSP modifierProduit.jsp
+16/10/2012  23:27             3ÿ738              panier.jsp
+16/10/2012  23:27               317 PARTIE~1.JSP partieadmin.jsp
+16/10/2012  23:27             1ÿ639 RECHER~1.JSP Recherche.jsp
+17/10/2012  15:34               335              redirect.jsp
+16/10/2012  23:27             7ÿ454              style.css
+16/10/2012  23:27               594 SUPPRI~1.JSP supprimerArticle.jsp
+16/10/2012  23:27               825 SUPPRI~2.JSP supprimerCategorie.jsp
+16/10/2012  23:27               542 SUPPRI~3.JSP supprimerClient.jsp
+16/10/2012  23:27               671 SUPPRI~4.JSP supprimerCommande.jsp
+16/10/2012  23:27               700 SUD9FE~1.JSP supprimerLigne.jsp
+16/10/2012  23:27               908 SU652A~1.JSP supprimerProduit.jsp
+15/10/2012  11:01             5ÿ118 UNITPN~1.JS  unitpngfix.js
+16/10/2012  23:27             5ÿ641 VERIFP~1.JSP verifPanier.jsp
+20/10/2012  19:29    <REP>                       WEB-INF
+              42 fichier(s)           70ÿ178 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\CSS
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27               429              home.css
+16/10/2012  23:27               790 MENU_D~1.CSS menu_deroulant.css
+               2 fichier(s)            1ÿ219 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\Images
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  22:17    <REP>                       Articles
+15/10/2012  11:02           100ÿ674              bg.jpg
+15/10/2012  11:01           144ÿ935              bg2.jpg
+16/10/2012  22:17    <REP>          CATEGO~1     Categories
+15/10/2012  11:01             1ÿ272 CENTER~1.GIF center_divider.gif
+15/10/2012  11:02                43              clear.gif
+15/10/2012  11:02             1ÿ025 CONTAC~1.GIF contact_title.gif
+15/10/2012  11:02             1ÿ557              csscreme.gif
+15/10/2012  11:02             1ÿ931              details.gif
+15/10/2012  11:01               102              divider.gif
+15/10/2012  11:01             9ÿ073              fond_bg.jpg
+15/10/2012  11:02             2ÿ027 FOOTER~1.GIF footer_logo.gif
+15/10/2012  11:02             6ÿ875              gift1.gif
+15/10/2012  11:02             7ÿ241              gift2.gif
+15/10/2012  11:02             7ÿ180              gift3.gif
+15/10/2012  11:01             6ÿ981              gift4.gif
+15/10/2012  11:02             1ÿ960 GIFT_T~1.GIF gift_title.gif
+16/10/2012  22:17    <REP>                       Icon
+15/10/2012  11:01             1ÿ169 LATES_~1.GIF lates_products_title.gif
+15/10/2012  11:01               353 LEFT_M~1.GIF left_menu_bullet.gif
+15/10/2012  11:01            10ÿ466              logo.png
+15/10/2012  11:01            22ÿ573              LOGO1.png
+15/10/2012  11:02            81ÿ330              LOGO2.png
+15/10/2012  11:02           242ÿ563              LOGO3.png
+15/10/2012  11:02           690ÿ001              LOGO4.png
+15/10/2012  11:02             1ÿ531 MAINCO~1.PNG maincontent.png
+15/10/2012  11:01               585              next.gif
+15/10/2012  11:02             1ÿ818              order.gif
+15/10/2012  11:02            27ÿ532              p1.gif
+15/10/2012  11:02            23ÿ983              p2.gif
+15/10/2012  11:01            18ÿ167              p3.gif
+15/10/2012  11:02            24ÿ886              p4.gif
+15/10/2012  11:01            23ÿ848              p5.gif
+15/10/2012  11:01            23ÿ233              p6.gif
+15/10/2012  11:01    <REP>                       Produits
+15/10/2012  11:02             1ÿ541 RECOMM~1.GIF recommended_title.gif
+15/10/2012  11:02               664              search.gif
+15/10/2012  11:01             1ÿ246 SHOP_T~1.GIF shop_title.gif
+15/10/2012  11:01             9ÿ099              sp1.gif
+15/10/2012  11:02             9ÿ037              sp2.gif
+15/10/2012  11:02             9ÿ761              sp3.gif
+15/10/2012  11:02            16ÿ465 SUBMEN~1.GIF submenu_pic.gif
+15/10/2012  11:01             1ÿ778              submit.gif
+15/10/2012  11:01            64ÿ512              Thumbs.db
+15/10/2012  11:02            10ÿ397 TOP_ME~1.JPG top_menu_bg.jpg
+15/10/2012  11:02             1ÿ538 TOP_ME~1.PNG top_menu_bg.png
+15/10/2012  11:02               987 TOP_ME~2.PNG top_menu_bg2.png
+              43 fichier(s)        1ÿ613ÿ939 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\Images\Articles
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:02             3ÿ417 ACERAS~1.JPG AcerAspireX1930009.jpg
+15/10/2012  11:01             6ÿ352 ACERIC~1.JPG AcerICONIATABA70032GO.jpg
+15/10/2012  11:01             6ÿ318 ACERPR~1.JPG AcerPREDATORG7750017.jpg
+15/10/2012  11:02             7ÿ601 ACERPR~2.JPG AcerPREDATORG7760009.jpg
+15/10/2012  11:02             5ÿ764 ACERPR~3.JPG AcerPRETADOR G7760078.jpg
+15/10/2012  11:02             6ÿ851 ARCHOS~1.JPG ArchosA101G9TURBO16GO.jpg
+15/10/2012  11:02             5ÿ665 ASUS12~1.JPG Asus1225BWHI040M.jpg
+15/10/2012  11:02             7ÿ006 ASUSTF~1.JPG AsusTF300T1K164A.jpg
+15/10/2012  11:02             4ÿ123 BRANDT~1.JPG BrandtBDVD1290.jpg
+15/10/2012  11:02            15ÿ636 CALORT~1.JPG CalorTN3310C4.jpg
+15/10/2012  11:02             5ÿ413 COMPAQ~1.JPG CompaqCQ57436SF.jpg
+15/10/2012  11:01             5ÿ171 DEDIET~1.JPG DeDietrichDLZ714B.jpg
+15/10/2012  11:01             6ÿ091 DEDIET~2.JPG DeDietrichDVH910JE1.jpg
+15/10/2012  11:02             1ÿ916 FAGORF~1.JPG FagorFFT111PWBLANC.jpg
+15/10/2012  11:02             7ÿ566 GIGASE~1.JPG GigasetM2Professional.jpg
+15/10/2012  11:02             7ÿ752              HP2311GT.gif
+15/10/2012  11:02             8ÿ018              HP24.gif
+15/10/2012  11:01             3ÿ951 HPLASE~1.JPG HpLASERMOBILE.jpg
+15/10/2012  11:02             3ÿ910 HPP621~1.JPG HPP62155EFM.jpg
+15/10/2012  11:02             6ÿ223 HPPAVI~1.JPG HpPAVILION G72043SF.jpg
+15/10/2012  11:02             6ÿ223 HPPAVI~2.JPG HpPAVILIONG72043SF.jpg
+15/10/2012  11:02             5ÿ661 IMACAP~1.JPG iMacAppleMC813.jpg
+15/10/2012  11:02            21ÿ623 INDESI~1.JPG IndesitIWC71251CBLANC.jpg
+15/10/2012  11:01             4ÿ298 JEANLO~1.JPG JeanlouisDavidJ70E.jpg
+15/10/2012  11:02             8ÿ841 KINDLE~1.GIF KindleTouch.gif
+15/10/2012  11:02             4ÿ402 LEXARM~1.JPG LexarMediaTWISTTURN32GO.jpg
+15/10/2012  11:02             6ÿ035 LEXARM~2.JPG LexarMediaTWISTTURN8GO.jpg
+15/10/2012  11:02             5ÿ079 LG47LM~1.GIF LG47LM660S.gif
+15/10/2012  11:02             3ÿ038 LGM472~1.JPG LGM4720CCBA.jpg
+15/10/2012  11:02            26ÿ078 MEMUP3~1.JPG Memup353ToSATA7200trm.jpg
+15/10/2012  11:02            23ÿ594 MOTORO~1.JPG MotorolaXOOM2MEDIAEDITION.jpg
+15/10/2012  11:02             6ÿ753 MPMANM~1.JPG MpmanMID74C4GO.jpg
+15/10/2012  11:02            88ÿ786              Nexus7.jpg
+15/10/2012  11:01            40ÿ168 NOKIAL~1.JPG NokiaLumia.jpg
+15/10/2012  11:02             5ÿ663 PACKAR~1.JPG PACKARDBELLIXTREMEI9504FR.jpg
+15/10/2012  11:02             8ÿ499 PANASO~1.GIF PanasonicTXP65ST50E3D.gif
+15/10/2012  11:01             8ÿ043 PANASO~2.GIF PanasonicTXP65VT50E3D.gif
+15/10/2012  11:02             2ÿ735 PEEKTO~1.JPG PeektonPK6749.jpg
+15/10/2012  11:02             3ÿ985 PHILIP~1.GIF PhilipsBDP29803D.gif
+15/10/2012  11:02             4ÿ662 PHILIP~2.GIF PhilipsBDP3280.gif
+15/10/2012  11:02             3ÿ554 PHILIP~3.GIF PhilipsBDP32803D.gif
+15/10/2012  11:02             2ÿ914 PHILIP~1.JPG PhilipsDVP3880.jpg
+15/10/2012  11:02            19ÿ067 PHILIP~2.JPG PhilipsHS842023NFM.jpg
+15/10/2012  11:01            30ÿ602 PHILIP~3.JPG PhilipsRQ116022CCSENSOTOUCH.jpg
+15/10/2012  11:02             4ÿ156 PHILIP~4.JPG PhilipsSerie600.jpg
+15/10/2012  11:01             4ÿ121 RAZERD~1.JPG RazerDEATHADDERREFRESH.jpg
+15/10/2012  11:02            23ÿ697 REMING~1.JPG RemingtonPG400.jpg
+15/10/2012  11:02             6ÿ002 SAMSUN~1.JPG SamsungFNP900I93BLUGalaxySIII.jpg
+15/10/2012  11:01            36ÿ084 SAMSUN~2.JPG SamsungGalaxyS3.jpg
+15/10/2012  11:01             8ÿ900 SAMSUN~1.GIF SamsungLE32D550.gif
+15/10/2012  11:02             6ÿ755 SAMSUN~2.GIF SamsungSyncMaster .gif
+15/10/2012  11:02             3ÿ999 SAMSUN~3.GIF SamsungSyncMaster.gif
+15/10/2012  11:02             9ÿ050 SAMSUN~4.GIF SamsungT27A550.gif
+15/10/2012  11:02            25ÿ894 SEAGAT~1.JPG SeagateMOMENTUS25500Go.jpg
+15/10/2012  11:01             6ÿ234 SIEMEN~1.JPG SIEMENSAS200ANoir.jpg
+15/10/2012  11:01             1ÿ773 SIEMEN~2.JPG siemenssl78h.jpg
+15/10/2012  11:01             3ÿ715 SIEMEN~3.JPG SiemensSN56M697EUNOIR.jpg
+15/10/2012  11:02            18ÿ247 SMARTL~1.JPG SmartLinkSE8881.jpg
+15/10/2012  11:02             5ÿ551 SONYBD~1.GIF SonyBDPS185.gif
+15/10/2012  11:02             1ÿ524 SONYFW~1.JPG SonyFWD65HX920P.jpg
+15/10/2012  11:02             3ÿ412 SONYHD~1.JPG SonyHDPG5500GoUSB3.0NOIR.jpg
+15/10/2012  11:01             2ÿ546 SONYST~1.JPG SonySTYLEPINK8GO.jpg
+15/10/2012  11:01             7ÿ476 SONYTA~1.JPG SonyTabletS16Go.jpg
+15/10/2012  11:01             5ÿ438 SONYVA~1.JPG SonyVaioVPCEH3K1EW.jpg
+15/10/2012  11:02            10ÿ586 SONYXE~1.GIF SonyXEL1B.gif
+15/10/2012  11:02             2ÿ458 TOSHIB~1.JPG Toshiba40WL768.jpg
+15/10/2012  11:01            42ÿ748 TOSHIB~2.JPG Toshiba55ZL1.jpg
+15/10/2012  11:01             5ÿ632 WESTER~1.JPG WesternDigitalMyPassport1ToUSB3.0NOIR.jpg
+              68 fichier(s)          711ÿ045 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\Images\Categories
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:02             4ÿ783 ACCESS~1.JPG Accessoires.jpg
+15/10/2012  11:02             7ÿ641 DISQUE~1.JPG Disque Dur.jpg
+15/10/2012  11:01            18ÿ714              Ecran.jpg
+15/10/2012  11:02            31ÿ683 ELECTR~1.JPG Electromenager.jpg
+15/10/2012  11:01             6ÿ769              Lecteur.jpg
+15/10/2012  11:02             4ÿ762 ORDINA~1.JPG Ordinateur.jpg
+15/10/2012  11:02             6ÿ495              Tablette.jpg
+15/10/2012  11:02            36ÿ485 TELEPH~1.JPG Telephone.jpg
+15/10/2012  11:02             4ÿ232              Tondeuse.jpg
+               9 fichier(s)          121ÿ564 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\Images\Icon
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:02               917 ACTUAL~1.PNG actualiser.png
+15/10/2012  11:01            28ÿ124              boutique.jpg
+15/10/2012  11:01             8ÿ904 B_RECH~1.PNG b_rechercher.png
+15/10/2012  11:02             6ÿ772              caddie.jpg
+15/10/2012  11:02             1ÿ398              Del.bmp
+15/10/2012  11:02               947              moins.jpg
+15/10/2012  11:02             1ÿ044              plus.jpg
+               7 fichier(s)           48ÿ106 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\Images\Produits
+
+15/10/2012  11:01    <REP>                       .
+15/10/2012  11:01    <REP>                       ..
+               0 fichier(s)                0 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\include
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27               459              connect.jsp
+16/10/2012  23:27               429              footer.jsp
+16/10/2012  23:27             2ÿ399              header.jsp
+16/10/2012  23:27               779              user.jsp
+               4 fichier(s)            4ÿ066 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\JS
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+16/10/2012  23:27               312 MENU_D~1.JS  menu_deroulant.js
+               1 fichier(s)              312 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\META-INF
+
+16/10/2012  23:25    <REP>                       .
+16/10/2012  23:25    <REP>                       ..
+16/10/2012  23:30                93              context.xml
+15/10/2012  11:01                39              MANIFEST.MF
+               2 fichier(s)              132 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\WEB-INF
+
+20/10/2012  19:29    <REP>                       .
+20/10/2012  19:29    <REP>                       ..
+20/10/2012  20:20             1ÿ968 APPLIC~1.XML applicationContext.xml
+20/10/2012  19:29               421 ARTICL~1.XML Article.hbm.xml
+18/10/2012  18:37             1ÿ663 DISPAT~1.XML dispatcher-servlet.xml
+16/10/2012  23:27               496 GLASSF~1.XML glassfish-web.xml
+17/10/2012  15:34    <REP>                       jsp
+16/10/2012  22:17    <REP>                       lib
+20/10/2012  18:59               160 SPRING~1.PRO spring.properties
+18/10/2012  18:37            31ÿ133              web.xml
+               6 fichier(s)           35ÿ841 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\WEB-INF\jsp
+
+17/10/2012  15:34    <REP>                       .
+17/10/2012  15:34    <REP>                       ..
+17/10/2012  15:34               816              index.jsp
+               1 fichier(s)              816 octets
+
+ R‚pertoire de C:\Users\Hck\Documents\NetBeansProjects\uniprix\WebContent\WEB-INF\lib
+
+16/10/2012  22:17    <REP>                       .
+16/10/2012  22:17    <REP>                       ..
+15/10/2012  11:01           443ÿ432 ANTLR-~1.JAR antlr-2.7.6.jar
+15/10/2012  11:02           559ÿ366 COMMON~1.JAR commons-collections-3.1.jar
+15/10/2012  11:02           313ÿ898 DOM4J-~1.JAR dom4j-1.6.1.jar
+15/10/2012  11:01           119ÿ292 HIBERN~1.JAR hibernate-entitymanager.jar
+15/10/2012  11:01           100ÿ884 HIBERN~2.JAR hibernate-jpa-2.0-api-1.0.0.Final.jar
+15/10/2012  11:02         4ÿ089ÿ101 HIBERN~3.JAR hibernate3.jar
+15/10/2012  11:02         1ÿ760ÿ639 ITEXTP~1.JAR itextpdf-5.3.0.jar
+15/10/2012  11:02           633ÿ312 JAVASS~1.JAR javassist-3.12.0.GA.jar
+15/10/2012  11:02            30ÿ658 JSTL-A~1.JAR jstl-api-1.2.jar
+15/10/2012  11:02           392ÿ410 JSTL-I~1.JAR jstl-impl-1.2.jar
+15/10/2012  11:02            10ÿ899 JTA-11~1.JAR jta-1.1.jar
+15/10/2012  11:02           391ÿ834 LOG4J-~1.JAR log4j-1.2.15.jar
+15/10/2012  11:01           348ÿ747 LOG4J-~2.JAR log4j-1.3alpha-8.jar
+15/10/2012  11:01           507ÿ849              mail.jar
+15/10/2012  11:02           732ÿ695 MYSQL-~1.JAR mysql-connector-java-5.1.12-bin.jar
+15/10/2012  11:02            25ÿ689 SLF4J-~1.JAR slf4j-api-1.6.2.jar
+15/10/2012  11:01             8ÿ891 SLF4J-~2.JAR slf4j-jdk14-1.6.2.jar
+              17 fichier(s)       10ÿ469ÿ596 octets
+
+     Total des fichiers list‚sÿ:
+             359 fichier(s)       13ÿ599ÿ078 octets
+             116 R‚p(s)  152ÿ135ÿ614ÿ464 octets libres

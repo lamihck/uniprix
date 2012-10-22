@@ -83,7 +83,16 @@
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>
-            <web-module-additional-libraries/>
+            <web-module-additional-libraries>
+                <library dirs="200">
+                    <file>${libs.hibernate-support.classpath}</file>
+                    <path-in-war>/</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${libs.hibernate-persistence.classpath}</file>
+                    <path-in-war>/</path-in-war>
+                </library>
+            </web-module-additional-libraries>
             <source-roots>
                 <root id="src.dir" name="src"/>
             </source-roots>
@@ -96,7 +105,6 @@
             <config-files>
                 <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/applicationContext.xml</config-file>
                 <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/dispatcher-servlet.xml</config-file>
-                <config-file>../../../NetBeansProjects/uniprix/WebContent/WEB-INF/beans.xml</config-file>
             </config-files>
             <config-file-groups>
                 <config-file-group name="Default Group">

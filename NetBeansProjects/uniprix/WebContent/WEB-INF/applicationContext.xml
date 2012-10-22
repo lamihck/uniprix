@@ -8,50 +8,43 @@
        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
        http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
 
-    <!-- SESSION FACTORY -->
-    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
-        <property name="dataSource" ref="dataSource"></property>
-        <property name="mappingResources">
-            <list>
-                <value><!-- Ici normalement les hbm.xml--></value>
-            </list>
-        </property>
-        <property name="hibernateProperties">
-            <props><!-- pas sûr pour le dialect-->
-                <prop key="hibernate.dialect">
-                    org.hibernate.dialect.MySqlDialect
-                </prop>
-            </props>
-        </property>
+    
+
+
+        <bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+		<property name="url" value="jdbc:mysql://localhost/uniprix"/>
+		<property name="username" value="root"/>
+		<property name="password" value=""/>
+	</bean>
+        
+        <bean id="mySessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+		<property name="dataSource" ref="myDataSource" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.uniprix.model.Article</value>
+                                <value>com.uniprix.model.Produit</value>
+                                <value>com.uniprix.model.Categorie</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.hbm2ddl.auto">none</prop>
+			</props>
+		</property>
+	</bean>
+
+
+    
+
+    
+    <bean id="myArticleDAO" class="com.uniprix.dao.hibernate.ArticleDAOImpl">
+		<property name="sessionFactory" ref="mySessionFactory"/>
     </bean>
-    
-    <!-- HIbernate template -->
-    <bean id="hibernateTemplate" class="org.springframework.orm.hibernate3.HibernateTemplate">
-        <property name="sessionFactory" ref="sessionFactory"></property>
-    </bean> 
-    
-    <!-- DAO basé sur Hibernate Template -->
-    <bean id="articleDAOImpl" class="com.uniprix.dao.hibernate.ArticleDAOImpl">
-        <property name="hibernateTemplate" ref="hibernateTemplate">
-    </bean>
-    
-    
-    
-    
-    
-    
-    
-    <!--bean id="propertyConfigurer"
-          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
-          p:location="/WEB-INF/jdbc.properties" />
 
-<bean id="dataSource"
-    class="org.springframework.jdbc.datasource.DriverManagerDataSource"
-    p:driverClassName="${jdbc.driverClassName}"
-    p:url="${jdbc.url}"
-    p:username="${jdbc.username}"
-    p:password="${jdbc.password}" /-->
-
-    <!-- ADD PERSISTENCE SUPPORT HERE (jpa, hibernate, etc) -->
-
+    
+    
+    
 </beans>
