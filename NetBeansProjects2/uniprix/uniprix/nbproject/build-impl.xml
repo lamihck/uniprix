@@ -1004,6 +1004,7 @@ exists or setup the property manually. For example like this:
         <copyfiles files="${libs.spring-framework300.classpath}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
         <copyfiles files="${libs.jstl11.classpath}" iftldtodir="${build.web.dir}/WEB-INF" todir="${dist.ear.dir}/lib"/>
         <copyfiles files="${libs.hibernate-support.classpath}" todir="${build.web.dir}//"/>
+        <copyfiles files="${libs.junit.classpath}" todir="${build.web.dir}//"/>
         <copyfiles files="${libs.hibernate-persistence.classpath}" todir="${build.web.dir}//"/>
         <mkdir dir="${build.web.dir}/META-INF"/>
         <manifest file="${build.web.dir}/META-INF/MANIFEST.MF" mode="update"/>
@@ -1029,6 +1030,7 @@ exists or setup the property manually. For example like this:
         <copyfiles files="${libs.spring-framework300.classpath}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${libs.jstl11.classpath}" todir="${build.web.dir}/WEB-INF/lib"/>
         <copyfiles files="${libs.hibernate-support.classpath}" todir="${build.web.dir}//"/>
+        <copyfiles files="${libs.junit.classpath}" todir="${build.web.dir}//"/>
         <copyfiles files="${libs.hibernate-persistence.classpath}" todir="${build.web.dir}//"/>
     </target>
     <target depends="init" if="dist.ear.dir" name="-clean-webinf-lib">
