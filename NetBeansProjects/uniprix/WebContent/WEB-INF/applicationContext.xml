@@ -11,37 +11,37 @@
     
 
 
-        <bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
-		<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://localhost/uniprix"/>
-		<property name="username" value="root"/>
-		<property name="password" value=""/>
-	</bean>
+    <bean id="myDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
+        <property name="url" value="jdbc:mysql://localhost/uniprix"/>
+        <property name="username" value="root"/>
+        <property name="password" value=""/>
+    </bean>
         
-        <bean id="mySessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
-		<property name="dataSource" ref="myDataSource" />
-		<property name="annotatedClasses">
-			<list>
-				<value>com.uniprix.model.Article</value>
-                                <value>com.uniprix.model.Produit</value>
-                                <value>com.uniprix.model.Categorie</value>
-			</list>
-		</property>
-		<property name="hibernateProperties">
-			<props>
-				<prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
-				<prop key="hibernate.show_sql">true</prop>
-				<prop key="hibernate.hbm2ddl.auto">none</prop>
-			</props>
-		</property>
-	</bean>
+    <bean id="mySessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+        <property name="dataSource" ref="myDataSource" />
+        <property name="annotatedClasses">
+            <list>
+                <value>com.uniprix.model.Article</value>
+                <value>com.uniprix.model.Produit</value>
+                <value>com.uniprix.model.Categorie</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQLDialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">none</prop>
+            </props>
+        </property>
+    </bean>
 
 
     
 
     
     <bean id="myArticleDAO" class="com.uniprix.dao.hibernate.ArticleDAOImpl">
-		<property name="sessionFactory" ref="mySessionFactory"/>
+        <property name="sessionFactory" ref="mySessionFactory"/>
     </bean>
 
     
